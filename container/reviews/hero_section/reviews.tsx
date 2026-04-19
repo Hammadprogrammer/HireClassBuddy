@@ -29,7 +29,7 @@ const ReviewsPage = () => {
         </h1>
         
         <p className={styles.description}>
-          Join thousands of students who trust ClassBuddy for proctored exams, 
+          Join thousands of students who trust Hire Class Buddy for proctored exams, 
           nursing portals, and complex subject assignments. We ensure privacy, 
           accuracy, and on-time submission.
         </p>

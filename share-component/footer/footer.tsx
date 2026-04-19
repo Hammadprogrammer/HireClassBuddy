@@ -112,7 +112,7 @@ const Footer = () => {
                 <Phone className={styles.icon} /> <span>+44 7400 465932</span>
               </a>
               <div className={styles.contactItem}>
-                <LocationOn className={styles.icon} /> <span>124 City Road, London, EC1V2NX</span>
+                <LocationOn className={styles.icon} /> <span>450 Lexington Ave, New York, NY 10017, United States</span>
               </div>
             </div>
             <div className={styles.paymentSection}>
