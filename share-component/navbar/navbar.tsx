@@ -49,7 +49,6 @@ const Navbar = () => {
     { name: "Statistics Class", icon: <BarChart /> }
   ];
 
-  // Helper function to create safe URLs
   const createSlug = (text: string) => {
     return text
       .toLowerCase()
@@ -73,9 +72,25 @@ const Navbar = () => {
       {/* --- TOP BAR --- */}
       <Box className={styles.topBar}>
         <Container maxWidth="lg" className={styles.topContainer}>
-          <Box className={styles.contactItem}><PhoneInTalk /> +44 7400 465932</Box>
-          <Box className={styles.contactItem}><Email /> info@hireclassbuddy.com</Box>
-          <Box className={`${styles.contactItem} ${styles.hideMobile}`}><LocationOn />450 Lexington Ave, New York, NY 10017, United States</Box>
+          {/* Updated Phone Link */}
+          <a href="tel:+12292028857" className={styles.contactItem}>
+            <PhoneInTalk /> +1 229 202 8857
+          </a>
+          
+          {/* Email Link */}
+          <a href="mailto:info@hireclassbuddy.com" className={styles.contactItem}>
+            <Email /> info@hireclassbuddy.com
+          </a>
+
+          {/* Location Link */}
+          {/* <a 
+            href="https://www.google.com/maps/search/?api=1&query=450+Lexington+Ave,+New+York,+NY+10017" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className={`${styles.contactItem} ${styles.hideMobile}`}
+          >
+            <LocationOn /> 450 Lexington Ave, New York, NY 10017
+          </a> */}
         </Container>
       </Box>
 

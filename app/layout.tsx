@@ -18,7 +18,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hire Class Buddy",
   description: "Get expert assistance for your classes and assignments with Hire Class Buddy.",
-  // Client ka Google Search Console verification code
   verification: {
     google: "NjsN1R8i6zRwFRZ1nji4enhGyduvbPwOAWKLT7UZ6xk",
   },
@@ -40,6 +39,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="canonical" href="https://hireclassbuddy.com" />
+        {/* Font Awesome for WhatsApp Icon */}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -47,6 +48,33 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+
+        {/* --- WhatsApp Floating Button --- */}
+        <a
+          href="https://wa.me/12292028857"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            position: 'fixed',
+            bottom: '120px', // Tawk.to ke upar rakhne ke liye space
+            right: '35px',
+            backgroundColor: '#25d366',
+            color: '#fff',
+            borderRadius: '50px',
+            textAlign: 'center',
+            fontSize: '30px',
+            boxShadow: '2px 2px 3px #999',
+            zIndex: 1000,
+            width: '50px',
+            height: '50px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            textDecoration: 'none'
+          }}
+        >
+          <i className="fa-brands fa-whatsapp"></i>
+        </a>
 
         {/* Tawk.to Chat Widget */}
         <Script id="tawk-to-script" strategy="lazyOnload">
