@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/philosophy/content_sect
 export const metadata: Metadata = {
   title: "Philosophy Class Help, Do My Online Philosophy Class for Me",
   description: "Looking for reliable support in philosophy? Our philosophy class help services cover assignments, projects, and discussions to boost your grades effortlessly. Get 50% Discount Today.",
+  alternates: {
+    canonical: "/subjects/philosophy-class",
+  }
 }
 
 const page = () => {

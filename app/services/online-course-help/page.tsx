@@ -16,6 +16,9 @@ import TestimonialSection from '@/container/services/online-course/testimonial/t
 export const metadata: Metadata = {
   title: "Online Course Help, Pay Someone to Do Online Course",
   description: "Looking to pay someone to do online course? Contact our professional course takers for hire & skyrocket your academic success. Get Online Course Help today and get 50% Discount.",
+  alternates: {
+    canonical: "/services/online-course-help",
+  }
 }
 
 const page = () => {

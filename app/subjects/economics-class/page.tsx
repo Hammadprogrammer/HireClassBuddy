@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/economics/content_secti
 export const metadata: Metadata = {
   title: "Take My Economics Class, Pay Someone Do My Economics Class",
   description: "Stuck with your difficult online economics class? Get help with online economics class and skyrocket your grades with ease. Get 50% discount on your economics class help by sign up today.",
+  alternates: {
+    canonical: "/subjects/economics-class",
+  }
 }
 
 const page = () => {

@@ -16,6 +16,9 @@ import TestimonialSection from '@/container/services/online-class/testimonial/te
 export const metadata: Metadata = {
   title: "Do My Class, Pay for Online Class Help, Do My Online Class",
   description: "Searching for Pay for Online Class Help? We are here to ace your grades with success. Our Do My Class experts are here to help. The service is completely private and secure.",
+  alternates: {
+    canonical: "/services/online-class-help",
+  }
 }
 
 const page = () => {

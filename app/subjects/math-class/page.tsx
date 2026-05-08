@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/math/content_section_th
 export const metadata: Metadata = {
   title: "Online Math Class, Pay Someone to Do My Math Class for Me",
   description: "Struggling to keep up in math? Get expert online math class help and improve your grades quickly with professional guidance. Get 50% Discount Offer on Your first math class order today.",
+  alternates: {
+    canonical: "/subjects/math-class",
+  }
 }
 
 const page = () => {

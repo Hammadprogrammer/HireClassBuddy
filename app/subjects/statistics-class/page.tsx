@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/statistics/content_sect
 export const metadata: Metadata = {
   title: "Online Statistics Class Help, Take My Statistics Class",
   description: "Stop feeling stuck and start making progress. We offer online statistics class help with confidence. Your success in statistics class begins with us. Get 50% Discount on Sign up Today.",
+  alternates: {
+    canonical: "/subjects/statistics-class",
+  }
 }
 
 const page = () => {

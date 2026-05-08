@@ -18,6 +18,9 @@ import ContentSectionThree from '@/container/all-subject/physics/content_section
 export const metadata: Metadata = {
   title: "Physics Class Takers, Hire Someone to Take My Physics Class",
   description: "Want someone to take your Physics class for you? Hire professional physics class takers and complete assignments, quizzes, and discussions stress-free. Sign up Now and get 50% Discount.",
+  alternates: {
+    canonical: "/subjects/physics-class",
+  }
 }
 
 const page = () => {

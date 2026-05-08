@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/law/content_section_thr
 export const metadata: Metadata = {
   title: "Law Class Help, Online Law Class Takers, Do My Law Class",
   description: "Want to hire help with online law class? We are offering top-notch online tutoring help for law students at really affordable rates, hire us now! Get 50% Discount on Your Law Class, Sugn up Today.",
+  alternates: {
+    canonical: "/subjects/law-class",
+  }
 }
 
 const page = () => {

@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/biology/content_section
 export const metadata: Metadata = {
   title: "Biology Class Help, Online Biology Class Experts and Takers",
   description: "Looking for help with Online Biology Class? We offer top-notch, affordable class assistance to boost your grades effortlessly. Get 50% discount on your Biology Class Help Services.",
+  alternates: {
+    canonical: "/subjects/biology-class",
+  }
 }
 
 const page = () => {

@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/sociology/content_secti
 export const metadata: Metadata = {
   title: "Do My Sociology Class, Take My Sociology Class for Me",
   description: "Need support in your Sociology class? Hire our experienced sociology class taker for hire to stay on track and reduce stress. Get 50% Discount Today for Your Sociology Class on Sign up.",
+  alternates: {
+    canonical: "/subjects/sociology-class",
+  }
 }
 
 const page = () => {

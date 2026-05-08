@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/history/content_section
 export const metadata: Metadata = {
   title: "Do My Online History Class, Pay to Take My History Class",
   description: "Hire the best online history class takers for hire at affordable rates. Contact us and boost your grades without even lifting a finger. Get 50% Discount on Your Sign up Today.",
+  alternates: {
+    canonical: "/subjects/history-class",
+  }
 }
 
 const page = () => {

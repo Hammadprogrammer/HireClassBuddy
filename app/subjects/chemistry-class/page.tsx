@@ -15,6 +15,9 @@ import ContentSectionThree from '@/container/all-subject/chemistry/content_secti
 export const metadata: Metadata = {
   title: "Online Chemistry Class, Pay Someone Take My Chemistry Class",
   description: "Struggling with Your Chemistry Class? Hire our online chemistry class takers for hire and take online chemistry class help and excel with ease. Get 50% Discount on sign up today.",
+  alternates: {
+    canonical: "/subjects/chemistry-class",
+  }
 }
 
 const page = () => {

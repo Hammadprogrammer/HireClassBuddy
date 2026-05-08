@@ -16,13 +16,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hireclassbuddy.com"),
   title: "Hire Class Buddy",
   description: "Get expert assistance for your classes and assignments with Hire Class Buddy.",
   verification: {
     google: "NjsN1R8i6zRwFRZ1nji4enhGyduvbPwOAWKLT7UZ6xk",
   },
   alternates: {
-    canonical: "https://hireclassbuddy.com",
+    canonical: "/",
   },
   robots: {
     index: true,
@@ -38,7 +39,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://hireclassbuddy.com" />
         {/* Font Awesome for WhatsApp Icon */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
       </head>

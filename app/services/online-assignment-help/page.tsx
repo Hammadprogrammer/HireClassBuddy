@@ -16,6 +16,9 @@ import TestimonialSection from '@/container/services/online-assignment-help/test
 export const metadata: Metadata = {
   title: "Assignment Writing Service, Pay Someone to Do My Assignment",
   description: "Struggling with assignments? Get assignment writing service from professional writers. 100% human-written, plagiarism-free work with secure payments and on-time delivery.",
+  alternates: {
+    canonical: "/services/online-assignment-help",
+  }
 }
 
 const page = () => {

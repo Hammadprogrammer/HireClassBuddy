@@ -16,6 +16,9 @@ import TestimonialSection from '@/container/services/online-proctored-exam/testi
 export const metadata: Metadata = {
   title: "Do My Proctored Exam Help, Take My Online Proctored Exam",
   description: "Looking for someone for do my proctored exam help service? We have got you covered. Hire our professional proctored exam takers at affordable prices and boost your score.",
+  alternates: {
+    canonical: "/services/online-proctored-exam",
+  }
 }
 
 const page = () => {
