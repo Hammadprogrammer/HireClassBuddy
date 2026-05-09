@@ -108,9 +108,10 @@ const Footer = () => {
               <a href="mailto:info@hireclassbuddy.com" className={styles.contactItem}>
                 <Email className={styles.icon} /> <span>info@hireclassbuddy.com</span>
               </a>
-              <a href="tel:+447400465932" className={styles.contactItem}>
-                <Phone className={styles.icon} /> <span>+44 7400 465932</span>
+              <a href="tel:+12292028857" className={styles.contactItem}>
+                <Phone className={styles.icon} /> <span>+1 229 202 8857</span>
               </a>
+
               <div className={styles.contactItem}>
                 <LocationOn className={styles.icon} /> <span>450 Lexington Ave, New York, NY 10017, United States</span>
               </div>
