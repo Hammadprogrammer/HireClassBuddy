@@ -47,7 +47,7 @@ const Footer = () => {
     { name: "Contact Us", url: "/contact-us/" },
     { name: "Privacy Policy", url: "/privacy-policy/" },
     { name: "Terms & Conditions", url: "/terms-and-conditions/" },
-    { name: "Refund Policy", url: "/refund-Policy/" }
+    { name: "Refund Policy", url: "/refund-policy/" }
   ];
 
   return (

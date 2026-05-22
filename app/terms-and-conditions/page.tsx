@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import TermsAndConditions from '@/container/term-and-condition/term-and-condition';
+import TermsAndConditions from '@/container/terms-and-conditions/terms-and-conditions';
 
 export const metadata: Metadata = {
   title: 'Terms and Conditions – Hire Class Buddy',
