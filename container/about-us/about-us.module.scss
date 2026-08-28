@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 // Brand Colors - Pink hatakar Luxury Gold/Blue theme
 $primary-dark: #061f3a;
 $accent-luxury: #d4af37; // Gold touch for luxury feel
@@ -101,7 +103,7 @@ $text-muted: #64748b;
   margin: 60px 0;
   transition: all 0.5s ease;
 
-  &:hover { background: lighten($primary-dark, 3%); }
+  &:hover { background: color.adjust($primary-dark, $lightness: 3%); }
   
   h2 { color: $white !important; }
 }

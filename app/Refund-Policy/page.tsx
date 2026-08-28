@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import RefundPolicy from '@/container/refund-policy/refund-policy'
+import RefundPolicy from '@/container/Refund-Policy/Refund-Policy'
 
 export const metadata: Metadata = {
   title: "Refund Policy – Hire Class Buddy",
